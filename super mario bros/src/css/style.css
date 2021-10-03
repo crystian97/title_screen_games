@@ -1,0 +1,23 @@
+/* mario bros logo */
+h1 {
+  font-family: "Super Mario Bros Alphabet", sans-serif;
+  color: #ffd6b2;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.mario-logo {
+  background-color: #c26f05;
+  width: 25rem;
+  height: 30vh;
+  margin: 0 auto;
+  align-items: center;
+}
+/* mario bros logo end */
+
+/* scenario */
+.scenario {
+  background-image: url("../img/background.jpg");
+  height: 100vh;
+  background-size: contain;
+}
+/* scenario end */
