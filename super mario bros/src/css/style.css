@@ -6,7 +6,7 @@
 /* reset end */
 /* scenario */
 .scenario {
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/background.png");
   height: 100vh;
   background-size: cover;
   background-position: bottom;
@@ -51,7 +51,7 @@ text-shadow: 0px 5px 0px rgba(0, 0, 0, 1);
 img#mario-char{
   position: absolute;
   top: 78%;
-  left: 20%;
+  left: 35%;
   width: 3rem;
   height: 3rem;
   
@@ -64,8 +64,9 @@ img#mario-char{
 .score{
   font-family: 'Press Start 2P', cursive;
   display: flex;
-  justify-content:space-evenly;
+  justify-content:space-around;
   color:white;
+  padding:0px 425px;
 }
 #score-player{
   text-transform: uppercase;
@@ -75,3 +76,45 @@ img#mario-char{
   font-weight: #020101;
 }	
 /* score ends */
+/* press start */
+.press_start{
+  position:relative;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #ffd6b2;
+  margin-top: 50px;;
+ 
+}
+.press_start > ul >li>a{
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style: none;
+  margin: 0px;
+  text-decoration: none;
+  padding: 0px;
+  color: #ffd6b2;
+}
+.press_start > ul >li>a:hover{
+    font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  list-style: none;
+  margin: 0px;
+  text-decoration: none;
+  padding: 0px;
+  list-style-image: url(../img/mario-icon.png);
+  
+}
+
+.press_start > ul >li>a:hover::before{
+content: url('../img/mushroom-icon.png');
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+  
+
+
+/* press start fim */
