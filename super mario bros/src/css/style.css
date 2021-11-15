@@ -1,3 +1,10 @@
+/* reset */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* reset end */
+
 /* mario bros logo */
 h1 {
   font-family: "Super Mario Bros Alphabet", sans-serif;
@@ -19,5 +26,9 @@ h1 {
   background-image: url("../img/background.jpg");
   height: 100vh;
   background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  max-width: 100%;
 }
 /* scenario end */
