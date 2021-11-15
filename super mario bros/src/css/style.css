@@ -3,6 +3,9 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+  height: 100vh;
+}
 /* reset end */
 /* scenario */
 .scenario {
