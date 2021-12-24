@@ -3,6 +3,9 @@
     margin:0px;
     padding:0px;
 }
+body{
+    background-color: black;
+}
 main.container{
     display:flex;
     flex-direction: column;
@@ -20,10 +23,11 @@ main.container{
     display:flex;
     flex-direction: column;
     justify-content:space-between;
-    height:auto;
+    height:80px;
     padding-top: 15px;
 
 }
+
 .main-menu li{
     list-style:none;
     
@@ -33,8 +37,13 @@ main.container{
 }
 .main-menu li a{
     text-decoration: none;
+    color:white;
     
 }
+ .main-menu ul li a.rosa{
+    color:pink;
+}
+
 .footer{
     display:flex;
     flex-direction: column;
