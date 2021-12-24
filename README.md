@@ -13,8 +13,8 @@ github cli:gh repo clone crystian97/title_screen_games
 
 ### Mario Start Screen
 
-![Untitled](readme/Start%20Screens%20Video%20Games%20211d10e35f134d12a5a09431d0c7de32/Untitled.png)
+![Untitled](/readme/Start%20Screens%20Video%20Games%20211d10e35f134d12a5a09431d0c7de32/Untitled.png)
 
 ### Mega Man VII Start Screen
 
-![Untitled](readme/Start%20Screens%20Video%20Games%20211d10e35f134d12a5a09431d0c7de32/Untitled%201.png)
+![Untitled](/readme/Start%20Screens%20Video%20Games%20211d10e35f134d12a5a09431d0c7de32/Untitled%201.png)
