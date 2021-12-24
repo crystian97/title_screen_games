@@ -1,7 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
 main.container{
     display:flex;
     flex-direction: column;
-    flex: 1;
-    flex-grow: 1;
+    height: 100vh;
     background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    align-items:center;
+    justify-content:space-between;
+}
+.brand img{
+    padding-top: 10px;
+}
+ ul.menu{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height:auto;
+    padding-top: 15px;
+
+}
+.main-menu li{
+    list-style:none;
+    
+    align-items:center;
+  
+
+}
+.main-menu li a{
+    text-decoration: none;
+    
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+}
+.footer img{
+  width:auto;
+  height:5%;
+  bottom:0;
+  
 }
