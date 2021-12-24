@@ -99,7 +99,7 @@ img#mario-char{
   color: #ffd6b2;
 }
 .press_start > ul >li>a:hover{
-    font-size: 0.75rem;
+  font-size: 0.75rem;
   font-weight: bold;
   text-transform: uppercase;
   list-style: none;
